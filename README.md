@@ -20,7 +20,7 @@ Contributions to improve the control scheme and other kinds of Vive customizatio
 
 1. Download the Robo Recall Editor through the Epic Games Launcher.
 2. [Download this repository](https://github.com/LibreVR/RoboRevive/archive/master.zip) as a zip file.
-3. Go to the directory where the Robo Recall Editor is installed, by default this is `C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall`.
+3. Go to the directory where the Robo Recall Editor is installed, by default this is `C:\Program Files\Epic Games\RoboRecallModKit`.
 4. Extract the contents of the zip file into the directory, be sure to merge it with the existing folders.
 5. Start the Robo Recall Editor, it may ask to rebuild a few modules, click 'Yes' to recompile them.
 6. Now go add Vive Controller render models and submit your contribution as a Pull Request.
