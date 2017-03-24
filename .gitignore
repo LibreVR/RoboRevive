@@ -1,2 +1,13 @@
+# ModKit Files
+Engine
+!Binaries/ThirdParty/OpenVR
+!Source/ThirdParty/OpenVR
+
+RoboRecall/*
+!RoboRecall/Plugins
+
+RoboRecall/Plugins/*
+!RoboRecall/Plugins/Revive
+
 # RoboRecall Mods
 *.robo
