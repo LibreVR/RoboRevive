@@ -8,11 +8,11 @@
 		"MajorVersion" : 4,
 		"MinorVersion" : 16,
 		"PatchVersion" : 0,
-		"Changelist" : 3324629,
+		"Changelist" : 3372750,
 		"CompatibleChangelist" : 3313651,
 		"IsLicenseeVersion" : 0,
 		"IsPromotedBuild" : 1,
-		"BranchName" : "++Odin+Main"
+		"BranchName" : "++Odin+Release"
 	},
 	"BuildProducts" :
 	[
@@ -72,7 +72,15 @@
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(ProjectDir)/Plugins/Paragon_Kallari/Paragon_Kallari.uplugin",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(ProjectDir)/Plugins/Revive/Revive.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(ProjectDir)/Plugins/UnrealTournament/UnrealTournament.uplugin",
 			"Type" : "UFS"
 		},
 		{
