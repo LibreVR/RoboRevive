@@ -1,7 +1,7 @@
 {
-	"Changelist" : 3324629,
+	"Changelist" : 3381948,
 	"CompatibleChangelist" : 3313651,
-	"BuildId" : "e96fb88b-9640-4a3a-b509-f62bd60278ad",
+	"BuildId" : "1f79a5c8-d512-4c58-88ec-3cc3f2f758e7",
 	"Modules" : 
 	{
 		"SteamVR" : "UE4Editor-SteamVR.dll",
