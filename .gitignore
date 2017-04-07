@@ -11,3 +11,6 @@ RoboRecall/Plugins/*
 
 # RoboRecall Mods
 *.robo
+
+# Installer file
+RoboRevive.exe
