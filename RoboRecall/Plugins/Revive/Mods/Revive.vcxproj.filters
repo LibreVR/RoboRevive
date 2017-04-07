@@ -4,10 +4,10 @@
 	<ItemGroup>
 		<None Include="..\Revive.uplugin" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{4D719513-8E26-4BD8-9A74-030090935A71}</UniqueIdentifier>
+			<UniqueIdentifier>{CEDED2FF-FFB9-4761-B08B-BAC19E30778F}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\OpenVR">
-			<UniqueIdentifier>{0623DBCB-14E9-49C0-A52A-C82FD8C613BA}</UniqueIdentifier>
+			<UniqueIdentifier>{D6CA839E-5824-41CF-AB8D-32A48E63C3A1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\Source\OpenVR\OpenVR.build.cs">
 			<Filter>Source\OpenVR</Filter>
@@ -16,13 +16,13 @@
 			<Filter>Source\OpenVR</Filter>
 		</None >
 		<Filter Include="Source\Revive">
-			<UniqueIdentifier>{B8CF4BA8-4C77-4567-905E-0EF581E4C5CB}</UniqueIdentifier>
+			<UniqueIdentifier>{A3613DFE-A6E1-4A28-9769-BCCC78C3C178}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\Source\Revive\Revive.Build.cs">
 			<Filter>Source\Revive</Filter>
 		</None >
 		<Filter Include="Source\Revive\Private">
-			<UniqueIdentifier>{4CF79227-D26D-4DE3-AA69-EE4F79BCEFA3}</UniqueIdentifier>
+			<UniqueIdentifier>{AB487106-E7D8-4468-8EAB-FF4C6C284CD6}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\Source\Revive\Private\Revive.cpp">
 			<Filter>Source\Revive\Private</Filter>
@@ -31,19 +31,19 @@
 			<Filter>Source\Revive\Private</Filter>
 		</ClInclude >
 		<Filter Include="Source\Revive\Public">
-			<UniqueIdentifier>{EEB39A6D-FEE2-4942-8284-3104E094B589}</UniqueIdentifier>
+			<UniqueIdentifier>{2DAD05EE-C484-47C9-9B0E-2C4403BC4C04}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\Source\Revive\Public\Revive.h">
 			<Filter>Source\Revive\Public</Filter>
 		</ClInclude >
 		<Filter Include="Source\SteamVR">
-			<UniqueIdentifier>{877DF0A7-8729-4973-AFDB-A4A41F800ECD}</UniqueIdentifier>
+			<UniqueIdentifier>{8F6EBFF1-8F98-43B5-827C-850BB1D6CAFF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\Source\SteamVR\SteamVR.Build.cs">
 			<Filter>Source\SteamVR</Filter>
 		</None >
 		<Filter Include="Source\SteamVR\Classes">
-			<UniqueIdentifier>{F7C90B1D-7DCB-47B5-AE5A-806D0D53A0BA}</UniqueIdentifier>
+			<UniqueIdentifier>{8341A394-691D-4505-88E7-479E97A3EF23}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\Source\SteamVR\Classes\SteamVRChaperoneComponent.h">
 			<Filter>Source\SteamVR\Classes</Filter>
@@ -52,7 +52,7 @@
 			<Filter>Source\SteamVR\Classes</Filter>
 		</ClInclude >
 		<Filter Include="Source\SteamVR\Private">
-			<UniqueIdentifier>{E44983B7-F671-49BF-A01E-873FC938F321}</UniqueIdentifier>
+			<UniqueIdentifier>{03044A37-AC70-48CD-98FC-BD182EBC3666}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\Source\SteamVR\Private\SteamVRChaperoneComponent.cpp">
 			<Filter>Source\SteamVR\Private</Filter>
@@ -85,25 +85,25 @@
 			<Filter>Source\SteamVR\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\SteamVR\Public">
-			<UniqueIdentifier>{6F1D9285-8122-4322-B581-0A16DC436148}</UniqueIdentifier>
+			<UniqueIdentifier>{A278D8FE-4A68-4A30-9B06-E9A6F56C042B}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\Source\SteamVR\Public\ISteamVRPlugin.h">
 			<Filter>Source\SteamVR\Public</Filter>
 		</ClInclude >
 		<Filter Include="Source\SteamVRController">
-			<UniqueIdentifier>{F9037B2D-D125-4AFD-AC1B-CD4A01F2E051}</UniqueIdentifier>
+			<UniqueIdentifier>{E3072692-3A3C-440C-B289-8A95A9A2478D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\Source\SteamVRController\SteamVRController.Build.cs">
 			<Filter>Source\SteamVRController</Filter>
 		</None >
 		<Filter Include="Source\SteamVRController\Private">
-			<UniqueIdentifier>{B8BCE016-65EC-47AE-BA0A-C5706BCCFD7F}</UniqueIdentifier>
+			<UniqueIdentifier>{193E285F-039C-40C8-B148-A670097646DC}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\Source\SteamVRController\Private\SteamVRController.cpp">
 			<Filter>Source\SteamVRController\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\SteamVRController\Public">
-			<UniqueIdentifier>{11CB88B9-9760-42EE-AC17-0E8DA15CF066}</UniqueIdentifier>
+			<UniqueIdentifier>{81EF1B2B-4CF5-461C-AE43-0EFA9EFAAE66}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\Source\SteamVRController\Public\ISteamVRControllerPlugin.h">
 			<Filter>Source\SteamVRController\Public</Filter>
