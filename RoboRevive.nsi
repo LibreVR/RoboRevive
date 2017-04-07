@@ -141,6 +141,7 @@ Section "Uninstall"
   RMDir /r "$INSTDIR\RoboRecall\Plugins\Revive"
 
   Delete "$INSTDIR\Icon.ico"
+  Delete "$DESKTOP\Robo Recall.lnk"
   Delete "$INSTDIR\Uninstall.exe"
   
   !insertmacro MUI_STARTMENU_GETFOLDER Application $StartMenuFolder
