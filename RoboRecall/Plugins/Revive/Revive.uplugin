@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "RoboRevive",
-	"Description": "Support for the SteamVR API, enable this mod to improve the gun angles",
+	"Description": "Support for the SteamVR API",
 	"Category": "Other",
 	"CreatedBy": "LibreVR",
 	"CreatedByURL": "https://github.com/LibreVR",
