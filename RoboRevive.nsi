@@ -95,12 +95,14 @@ Section "RoboRevive Mod" SecRevive
     MessageBox MB_OK "Oculus Software not found. Go to oculus.com/setup to install it."
     Abort ; causes installer to quit.
   NoAbort:
-  ExecWait "$0Support\oculus-runtime\OVRServiceLauncher.exe -stop"
-  ExecWait "$0Support\oculus-runtime\OVRServiceLauncher.exe -start"
+  ExecWait '"$0Support\oculus-runtime\OVRServiceLauncher.exe" -stop'
+  ExecWait '"$0Support\oculus-runtime\OVRServiceLauncher.exe" -start'
 
   ; Icon for the Robo Recall shortcuts
   SetOutPath "$INSTDIR"
   File Icon.ico
+  File small_landscape_image.jpg
+  File app.vrmanifest
 
   ; Add a Robo Recall shortcut to the desktop
   CreateShortCut "$DESKTOP\Robo Recall.lnk" "$INSTDIR\RoboRecall\Binaries\Win64\RoboRecall-Win64-Shipping.exe" "" "$INSTDIR\Icon.ico"
@@ -124,10 +126,16 @@ Section "RoboRevive Mod" SecRevive
   
   !insertmacro MUI_STARTMENU_WRITE_END
 
+  ; Register the application manifest with OpenVR
+  InitPluginsDir
+  File /oname=$PLUGINSDIR\openvr_api.dll openvr_api.dll
+  File /oname=$PLUGINSDIR\vrappreg.exe vrappreg.exe
+  ExecWait '"$PLUGINSDIR\vrappreg.exe" "$INSTDIR\app.vrmanifest"'
+
   ; Extract the mod package to the temp folder and install it
   File /oname=$TEMP\Revive.robo RoboRecall\Plugins\Revive\Revive.robo
   DetailPrint "Continue installation in Robo Recall Mod Installer dialog"
-  ExecWait "$INSTDIR\RoboRecall\Binaries\Win64\RoboRecallModInstaller.exe $TEMP\Revive.robo"
+  ExecWait '"$INSTDIR\RoboRecall\Binaries\Win64\RoboRecallModInstaller.exe" "$TEMP\Revive.robo"'
   Delete $TEMP\Revive.robo
 
 SectionEnd

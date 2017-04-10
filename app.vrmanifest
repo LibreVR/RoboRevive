@@ -1,0 +1,15 @@
+{
+    "applications": [
+        {
+            "app_key": "roborevive.app.epic-games-odin",
+            "binary_path_windows": "RoboRecall\\Binaries\\Win64\\RoboRecall-Win64-Shipping.exe",
+            "image_path": "small_landscape_image.jpg",
+            "launch_type": "binary",
+            "strings": {
+                "en_us": {
+                    "name": "Robo Recall (RoboRevive)"
+                }
+            }
+        }
+    ]
+}
