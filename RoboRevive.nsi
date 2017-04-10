@@ -149,6 +149,8 @@ Section "Uninstall"
   RMDir /r "$INSTDIR\RoboRecall\Plugins\Revive"
 
   Delete "$INSTDIR\Icon.ico"
+  Delete "$INSTDIR\app.vrmanifest"
+  Delete "$INSTDIR\small_landscape_image.jpg"
   Delete "$DESKTOP\Robo Recall.lnk"
   Delete "$INSTDIR\Uninstall.exe"
   
