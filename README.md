@@ -1,3 +1,7 @@
+# Important Notice
+
+This project is on hiatus, you should use regular Revive instead: https://github.com/LibreVR/Revive
+
 # RoboRevive
 
 This is a Robo Recall mod that adds native Vive support. It's called RoboRevive, but it doesn't actually use the Revive compatibility layer itself. Instead it uses the native SteamVR plugin from the Unreal Engine.
