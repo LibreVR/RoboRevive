@@ -7,7 +7,10 @@ RoboRecall/*
 !RoboRecall/Plugins
 
 RoboRecall/Plugins/*
-!RoboRecall/Plugins/Revive
+!RoboRecall/Plugins/RoboRevive
+
+RoboRecall/Plugins/RoboRevive/Intermediate
+RoboRecall/Plugins/RoboRevive/Build
 
 # RoboRecall Mods
 *.robo

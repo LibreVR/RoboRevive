@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1",
+	"FriendlyName": "RoboRevive",
+	"Description": "Support for the SteamVR API",
+	"Category": "Other",
+	"CreatedBy": "LibreVR",
+	"CreatedByURL": "https://github.com/LibreVR/RoboRevive",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsMod": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RoboRevive",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SteamVR",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SteamVRController",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+    }
+	]
+}

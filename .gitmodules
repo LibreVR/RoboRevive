@@ -1,4 +1,3 @@
-[submodule "RoboRecall/Plugins/Revive/Source"]
-	path = RoboRecall/Plugins/Revive/Source
+[submodule "RoboRecall/Plugins/RoboRevive/Source"]
+	path = RoboRecall/Plugins/RoboRevive/Source
 	url = https://github.com/LibreVR/UnrealEngine.git
-	branch = roborevive

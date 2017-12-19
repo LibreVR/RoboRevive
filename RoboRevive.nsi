@@ -91,18 +91,22 @@ Section "RoboRevive Mod" SecRevive
   ; Restart Oculus Service to prevent entitlement errors
   DetailPrint "Restarting Oculus Service..."
   ReadRegStr $0 HKLM "Software\Oculus VR, LLC\Oculus" "Base"
-  StrCmp $0 "" 0 NoAbort
-    MessageBox MB_OK "Oculus Software not found. Go to oculus.com/setup to install it."
-    Abort ; causes installer to quit.
-  NoAbort:
-  ExecWait '"$0Support\oculus-runtime\OVRServiceLauncher.exe" -stop'
-  ExecWait '"$0Support\oculus-runtime\OVRServiceLauncher.exe" -start'
+  StrCmp $0 "" NoRestart
+    ExecWait '"$0Support\oculus-runtime\OVRServiceLauncher.exe" -stop'
+    ExecWait '"$0Support\oculus-runtime\OVRServiceLauncher.exe" -start'
+  NoRestart:
 
   ; Icon for the Robo Recall shortcuts
   SetOutPath "$INSTDIR"
   File Icon.ico
   File small_landscape_image.jpg
   File app.vrmanifest
+
+  ; Delete previous version of Revive
+  IfFileExists "$INSTDIR\RoboRecall\Plugins\Revive\*.*" 0 NoDelete
+  DetailPrint "Deleting old version of RoboRevive..."
+  RMDir /r "$INSTDIR\RoboRecall\Plugins\Revive"
+  NoDelete:
 
   ; Add a Robo Recall shortcut to the desktop
   CreateShortCut "$DESKTOP\Robo Recall.lnk" "$INSTDIR\RoboRecall\Binaries\Win64\RoboRecall-Win64-Shipping.exe" "" "$INSTDIR\Icon.ico"
@@ -133,10 +137,10 @@ Section "RoboRevive Mod" SecRevive
   ExecWait '"$PLUGINSDIR\vrappreg.exe" "$INSTDIR\app.vrmanifest"'
 
   ; Extract the mod package to the temp folder and install it
-  File /oname=$TEMP\Revive.robo RoboRecall\Plugins\Revive\Revive.robo
+  File /oname=$TEMP\RoboRevive.robo RoboRecall\Plugins\RoboRevive\RoboRevive.robo
   DetailPrint "Continue installation in Robo Recall Mod Installer dialog"
-  ExecWait '"$INSTDIR\RoboRecall\Binaries\Win64\RoboRecallModInstaller.exe" "$TEMP\Revive.robo"'
-  Delete $TEMP\Revive.robo
+  ExecWait '"$INSTDIR\RoboRecall\Binaries\Win64\RoboRecallModInstaller.exe" "$TEMP\RoboRevive.robo"'
+  Delete $TEMP\RoboRevive.robo
 
 SectionEnd
 
@@ -146,7 +150,7 @@ SectionEnd
 Section "Uninstall"
 
   RMDir /r "$INSTDIR\Engine\Binaries\ThirdParty\OpenVR"
-  RMDir /r "$INSTDIR\RoboRecall\Plugins\Revive"
+  RMDir /r "$INSTDIR\RoboRecall\Plugins\RoboRevive"
 
   Delete "$INSTDIR\Icon.ico"
   Delete "$INSTDIR\app.vrmanifest"

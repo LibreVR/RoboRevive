@@ -1,0 +1,11 @@
+{
+	"Changelist" : 3792635,
+	"CompatibleChangelist" : 3313651,
+	"BuildId" : "96999c59-4fcc-49c1-b08e-a5278523078b",
+	"Modules" : 
+	{
+		"RoboRevive" : "UE4Editor-RoboRevive.dll",
+		"SteamVR" : "UE4Editor-SteamVR.dll",
+		"SteamVRController" : "UE4Editor-SteamVRController.dll"
+	}
+}

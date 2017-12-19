@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"RoboRecall-RoboRevive.dll"
+/IGNORE:4221
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\Module.RoboRevive.cpp.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\buffer.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\hook.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\trampoline.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\hde32.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\hde64.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\Engine\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\RoboRecallModKit\Engine\Intermediate\Build\Win64\RoboRecall\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-RoboRevive.lib"

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\RoboRevive.uplugin" />
+		<Filter Include="Resources">
+			<UniqueIdentifier>{F5306DFB-2E5E-43D1-A386-07D200A8B239}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Resources\Icon128.png">
+			<Filter>Resources</Filter>
+		</None >
+		<Filter Include="Source">
+			<UniqueIdentifier>{71925D67-DDE7-473B-80FF-53BF99861CAF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\OpenVR">
+			<UniqueIdentifier>{78A261BD-CE0A-44E0-B053-4C0722195D64}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Source\OpenVR\OpenVR.build.cs">
+			<Filter>Source\OpenVR</Filter>
+		</None >
+		<None Include="..\Source\OpenVR\OpenVR.tps">
+			<Filter>Source\OpenVR</Filter>
+		</None >
+		<Filter Include="Source\RoboRevive">
+			<UniqueIdentifier>{8474527A-83FB-46A3-AC94-9FD418A05238}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Source\RoboRevive\RoboRevive.Build.cs">
+			<Filter>Source\RoboRevive</Filter>
+		</None >
+		<Filter Include="Source\RoboRevive\Private">
+			<UniqueIdentifier>{1FDCB012-59AC-4F65-B62D-7245A1B03317}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Source\RoboRevive\Private\buffer.c">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</None >
+		<ClInclude Include="..\Source\RoboRevive\Private\buffer.h">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</ClInclude >
+		<None Include="..\Source\RoboRevive\Private\hook.c">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</None >
+		<None Include="..\Source\RoboRevive\Private\LICENSE.txt">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</None >
+		<ClInclude Include="..\Source\RoboRevive\Private\MinHook.h">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\Source\RoboRevive\Private\RoboRevive.cpp">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</ClCompile >
+		<None Include="..\Source\RoboRevive\Private\trampoline.c">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</None >
+		<ClInclude Include="..\Source\RoboRevive\Private\trampoline.h">
+			<Filter>Source\RoboRevive\Private</Filter>
+		</ClInclude >
+		<Filter Include="Source\RoboRevive\Private\hde">
+			<UniqueIdentifier>{53151892-21E1-4E7D-819D-7FD4E4D6CADE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Source\RoboRevive\Private\hde\hde32.c">
+			<Filter>Source\RoboRevive\Private\hde</Filter>
+		</None >
+		<ClInclude Include="..\Source\RoboRevive\Private\hde\hde32.h">
+			<Filter>Source\RoboRevive\Private\hde</Filter>
+		</ClInclude >
+		<None Include="..\Source\RoboRevive\Private\hde\hde64.c">
+			<Filter>Source\RoboRevive\Private\hde</Filter>
+		</None >
+		<ClInclude Include="..\Source\RoboRevive\Private\hde\hde64.h">
+			<Filter>Source\RoboRevive\Private\hde</Filter>
+		</ClInclude >
+		<ClInclude Include="..\Source\RoboRevive\Private\hde\pstdint.h">
+			<Filter>Source\RoboRevive\Private\hde</Filter>
+		</ClInclude >
+		<ClInclude Include="..\Source\RoboRevive\Private\hde\table32.h">
+			<Filter>Source\RoboRevive\Private\hde</Filter>
+		</ClInclude >
+		<ClInclude Include="..\Source\RoboRevive\Private\hde\table64.h">
+			<Filter>Source\RoboRevive\Private\hde</Filter>
+		</ClInclude >
+		<Filter Include="Source\RoboRevive\Public">
+			<UniqueIdentifier>{8924BC80-F4C9-420F-BA86-E96AA4197687}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\Source\RoboRevive\Public\RoboRevive.h">
+			<Filter>Source\RoboRevive\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\SteamVR">
+			<UniqueIdentifier>{21481FC6-70CF-4723-992D-1258507322E1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Source\SteamVR\SteamVR.Build.cs">
+			<Filter>Source\SteamVR</Filter>
+		</None >
+		<Filter Include="Source\SteamVR\Classes">
+			<UniqueIdentifier>{2D01FB6F-C2A6-4E95-82F6-FEA3CFFA3887}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\Source\SteamVR\Classes\SteamVRChaperoneComponent.h">
+			<Filter>Source\SteamVR\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\Source\SteamVR\Classes\SteamVRFunctionLibrary.h">
+			<Filter>Source\SteamVR\Classes</Filter>
+		</ClInclude >
+		<Filter Include="Source\SteamVR\Private">
+			<UniqueIdentifier>{3D05756D-FD2E-43CC-BE4E-DC769852A0F5}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\Source\SteamVR\Private\SteamVRChaperoneComponent.cpp">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\Source\SteamVR\Private\SteamVRFunctionLibrary.cpp">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\Source\SteamVR\Private\SteamVRHMD.cpp">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\Source\SteamVR\Private\SteamVRHMD.h">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\Source\SteamVR\Private\SteamVRMeshAssets.h">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\Source\SteamVR\Private\SteamVRPrivate.h">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\Source\SteamVR\Private\SteamVRRender.cpp">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\Source\SteamVR\Private\SteamVRSplash.cpp">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\Source\SteamVR\Private\SteamVRSplash.h">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\Source\SteamVR\Private\SteamVRStereoLayers.cpp">
+			<Filter>Source\SteamVR\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\SteamVR\Public">
+			<UniqueIdentifier>{DC27DB2B-D3C0-4DF1-BC63-3530F8BA5E0B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\Source\SteamVR\Public\ISteamVRPlugin.h">
+			<Filter>Source\SteamVR\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\SteamVRController">
+			<UniqueIdentifier>{46A5A050-F3BB-4EDB-B4DF-5D4974D36796}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Source\SteamVRController\SteamVRController.Build.cs">
+			<Filter>Source\SteamVRController</Filter>
+		</None >
+		<Filter Include="Source\SteamVRController\Private">
+			<UniqueIdentifier>{831C21C0-E3B5-4C57-A3B1-FA1322269FB2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\Source\SteamVRController\Private\SteamVRController.cpp">
+			<Filter>Source\SteamVRController\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\SteamVRController\Public">
+			<UniqueIdentifier>{A1C916D4-E5F0-4B5D-87F9-AD410E5903ED}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\Source\SteamVRController\Public\ISteamVRControllerPlugin.h">
+			<Filter>Source\SteamVRController\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

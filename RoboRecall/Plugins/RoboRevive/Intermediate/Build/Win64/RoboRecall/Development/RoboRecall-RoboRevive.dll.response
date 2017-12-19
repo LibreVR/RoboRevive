@@ -1,0 +1,71 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\Module.RoboRevive.cpp.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\buffer.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\hook.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\trampoline.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\hde32.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\hde64.c.obj"
+"C:\Program Files\Epic Games\RoboRecallModKit\Engine\Intermediate\Build\Win64\RoboRecall\Development\RoboRevive\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\RoboRecallModKit\Engine\Intermediate\Build\Win64\RoboRecall\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-AIModule.lib"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-Slate.lib"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-SlateCore.lib"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-Odin.lib"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-Core.lib"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-CoreUObject.lib"
+"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-Engine.lib"
+/OUT:"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Binaries\Win64\RoboRecall-RoboRevive.dll"
+/IMPLIB:"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Intermediate\Build\Win64\RoboRecall\Development\RoboRecall-RoboRevive.suppressed.lib"
+/PDB:"C:\Program Files\Epic Games\RoboRecallModKit\RoboRecall\Plugins\RoboRevive\Binaries\Win64\RoboRecall-RoboRevive.pdb"
+/ignore:4078

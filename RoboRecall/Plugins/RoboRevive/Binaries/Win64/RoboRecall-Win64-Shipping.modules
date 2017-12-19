@@ -1,0 +1,11 @@
+{
+	"Changelist" : 3792635,
+	"CompatibleChangelist" : 3313651,
+	"BuildId" : "",
+	"Modules" : 
+	{
+		"RoboRevive" : "RoboRecall-RoboRevive-Win64-Shipping.dll",
+		"SteamVR" : "RoboRecall-SteamVR-Win64-Shipping.dll",
+		"SteamVRController" : "RoboRecall-SteamVRController-Win64-Shipping.dll"
+	}
+}
